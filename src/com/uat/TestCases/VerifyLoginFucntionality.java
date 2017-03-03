@@ -36,7 +36,7 @@ public class VerifyLoginFucntionality
 		
 		//driver.get("https://click2cloud.sharepoint.com/sites/UAT/TestV2.0/");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		driver.get("http://aspnet-core-example-uat-core-front.c2capps.click2cloud.net/");
+		driver.get("https://bitbucket.org/click2cloud-uat/uat-front-layer/");
 		
 		
 		LoginPage login = new LoginPage(driver);
